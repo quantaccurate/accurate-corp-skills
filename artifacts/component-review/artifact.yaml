@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: component-review
+name: Component Review
+description: Skill for reviewing React component structure and accessibility
+type: skill
+version: 1.0.0
+owner:
+  team: platform
+tags: [frontend, react]
+files:
+  - from: skills/component-review
+    to: skills/component-review
+install:
+  scope: [global, workspace]
+  default_scope: workspace

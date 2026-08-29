@@ -1,0 +1,12 @@
+schema_version: "1.0"
+id: frontend-engineer
+name: Frontend Engineer
+description: Bundles TypeScript standards and component review for frontend work
+type: pack
+version: 1.0.0
+owner:
+  team: platform
+tags: [frontend]
+includes:
+  - typescript-standards@^1.0.0
+  - component-review@^1.0.0

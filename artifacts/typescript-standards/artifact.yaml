@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: typescript-standards
+name: TypeScript Standards
+description: Company TypeScript conventions, appended to CLAUDE.md
+type: instruction
+version: 1.0.0
+owner:
+  team: platform
+tags: [typescript]
+files:
+  - from: CLAUDE.md
+    to: CLAUDE.md
+install:
+  scope: [global, workspace]
+  default_scope: workspace
