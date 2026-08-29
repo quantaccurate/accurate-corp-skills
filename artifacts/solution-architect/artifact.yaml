@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: solution-architect
+name: Solution Architect
+description: Skill for evaluating system design tradeoffs and drafting an architecture decision record
+type: skill
+version: 1.0.0
+owner:
+  team: platform
+tags: [architecture, design]
+files:
+  - from: skills/solution-architect
+    to: skills/solution-architect
+install:
+  scope: [global, workspace]
+  default_scope: workspace

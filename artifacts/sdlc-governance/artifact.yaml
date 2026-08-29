@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: sdlc-governance
+name: SDLC Governance
+description: Software development lifecycle governance rules, appended to CLAUDE.md
+type: instruction
+version: 1.0.0
+owner:
+  team: platform
+tags: [governance, sdlc, compliance]
+files:
+  - from: CLAUDE.md
+    to: CLAUDE.md
+install:
+  scope: [global, workspace]
+  default_scope: workspace

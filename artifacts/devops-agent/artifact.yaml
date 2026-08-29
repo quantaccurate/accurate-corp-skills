@@ -1,0 +1,15 @@
+schema_version: "1.0"
+id: devops-agent
+name: DevOps Agent
+description: Subagent for CI/CD pipeline, deployment, and infrastructure changes
+type: agent
+version: 1.0.0
+owner:
+  team: platform
+tags: [devops, ci-cd, infrastructure]
+files:
+  - from: agents/devops-agent.md
+    to: agents/devops-agent.md
+install:
+  scope: [global, workspace]
+  default_scope: workspace

@@ -11,9 +11,24 @@ artifacts:
     type: skill
     latest:
       stable: 1.0.0
+  - id: devops-agent
+    path: artifacts/devops-agent
+    type: agent
+    latest:
+      stable: 1.0.0
   - id: frontend-engineer
     path: packs/frontend-engineer
     type: pack
+    latest:
+      stable: 1.0.0
+  - id: sdlc-governance
+    path: artifacts/sdlc-governance
+    type: instruction
+    latest:
+      stable: 1.0.0
+  - id: solution-architect
+    path: artifacts/solution-architect
+    type: skill
     latest:
       stable: 1.0.0
   - id: typescript-standards
