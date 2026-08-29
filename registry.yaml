@@ -1,0 +1,23 @@
+schema_version: "1.0"
+registry:
+  id: accurate-corp-skills
+  name: Accurate Corp Skills
+  description: Test registry for Enterprise Forge LAN verification
+  maintainers: []
+  default_channel: stable
+artifacts:
+  - id: component-review
+    path: artifacts/component-review
+    type: skill
+    latest:
+      stable: 1.0.0
+  - id: frontend-engineer
+    path: packs/frontend-engineer
+    type: pack
+    latest:
+      stable: 1.0.0
+  - id: typescript-standards
+    path: artifacts/typescript-standards
+    type: instruction
+    latest:
+      stable: 1.0.0

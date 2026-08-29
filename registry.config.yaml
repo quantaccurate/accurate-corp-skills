@@ -1,7 +1,7 @@
 schema_version: "1.0"
 registry:
-  id: fixture-registry
-  name: Fixture Registry
-  description: Minimal registry fixture for Spec 01 tests
+  id: accurate-corp-skills
+  name: Accurate Corp Skills
+  description: Test registry for Enterprise Forge LAN verification
   maintainers: []
   default_channel: stable
