@@ -5,3 +5,5 @@ registry:
   description: Test registry for Enterprise Forge LAN verification
   maintainers: []
   default_channel: stable
+  # The one coding tool this registry serves (Enterprise Forge ADR 0004).
+  assistant: claude-code

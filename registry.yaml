@@ -5,6 +5,7 @@ registry:
   description: Test registry for Enterprise Forge LAN verification
   maintainers: []
   default_channel: stable
+  assistant: claude-code
 artifacts:
   - id: component-review
     path: artifacts/component-review
